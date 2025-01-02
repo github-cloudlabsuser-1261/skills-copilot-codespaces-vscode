@@ -1,5 +1,4 @@
 {
-    // Name this configuration
     "name": "Codespace for Skills!",
     "customizations": {
         "vscode": {
@@ -8,5 +7,9 @@
                 "hashicorp.terraform"
             ]
         }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/terraform:1": {}
     }
 }
+
